@@ -1,0 +1,109 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: #b58a00;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0 0 16px;
+}
+
+/* Site */
+#body {
+    width: 970px;
+    margin: auto;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 330px;
+    float: left;
+}
+
+/* Conteudo */
+#conteudo {
+    width: 632px;
+    float: right;
+}
+
+/* Texto */
+.texto {
+    background: blanchedalmond;
+    border-radius: 30px;
+    padding: 30px;
+    border: 4px solid #5a4a1a;
+}
+
+/* Navbar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #b58a00;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/* Cadastro */
+
+form label {
+    width: 123px;
+    display: inline-block;
+}
+
+.error {
+    border-color: red;
+}
+
+#errorEmail,
+#errorSenha,
+#errorConfirmarSenha {
+    color: red;
+}
+
+#btnCadastrar {
+    border: 4px solid #5a4a1a;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+/* Fase 3 */
+td {
+    border: 1px solid;
+    text-align: center;
+}
